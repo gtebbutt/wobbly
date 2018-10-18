@@ -3,7 +3,7 @@
 import type { StateAndHelpers, RenderProp, SytheticMoveEvent } from './types';
 
 import React, { Component } from 'react';
-import { Animated } from 'react-vr';
+import { Animated } from 'react-360';
 
 import { unwrapArray, callAll, noop } from './utils';
 
@@ -41,7 +41,7 @@ type State = {
  *   </br>
  *   <img src="https://user-images.githubusercontent.com/1127238/38072922-8250c22a-32dd-11e8-8259-fb8ea3346dfc.png" alt="wobbly logo" title="wobbly logo" width="100">
  * </h1>
- * <p align="center">parallax all the things in react-vr</p>
+ * <p align="center">parallax all the things in react-360</p>
  * <hr />
  * </br>
  * wobbly manages the state needed to calculate `x, y` rotations for a parallax effect, allowing you to focus the UI, and apply the effect how/where you want.
@@ -64,7 +64,7 @@ class Wobbly extends Component<Props, State> {
    * @property {boolean} [moveOnLatchOnly=false] - only map onMove events to state when "latched"
    * @property {function} [children] - Is called with the StateAndHelpers of wobbly.
    * @property {function} [render] - Is called with the StateAndHelpers of wobbly.
-   * @see {@link https://facebook.github.io/react-vr/docs/view.html#hitslop|hitSlop react-vr docs}
+   * @see {@link https://facebook.github.io/react-360/docs/view.html#hitslop|hitSlop react-360 docs}
    */
   static defaultProps = {
     parallaxDegreeLowerBound: -15,

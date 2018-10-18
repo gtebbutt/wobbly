@@ -1,13 +1,14 @@
 {
   "name": "wobbly",
   "version": "0.0.8",
-  "description": "〰️ parallax all the things in react-vr",
+  "description": "〰️ parallax all the things in react-360",
   "main": "lib/wobbly.js",
   "repository": "git@github.com:infiniteluke/wobbly.git",
   "keywords": [
     "react",
     "parallax",
     "react-vr",
+    "react-360",
     "vr",
     "function as child",
     "prop getter",
@@ -34,7 +35,7 @@
   },
   "peerDependencies": {
     "react": ">=16.0.0",
-    "react-vr": ">=2.0.0"
+    "react-360": ">=1.0.0"
   },
   "devDependencies": {
     "@emdaer/cli": "^2.0.0",
@@ -68,8 +69,8 @@
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-native": "^0.54.3",
-    "react-vr": "^2.0.0",
-    "react-vr-web": "^2.0.0",
+    "react-360": "^1.0.0",
+    "react-360-web": "^1.0.0",
     "size-limit": "^0.11.4",
     "three": "^0.91.0",
     "xopen": "^1.0.0"
